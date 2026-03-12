@@ -1,4 +1,5 @@
 # Causality on breast cancer data
+
 ### The purpose of this project is to 
 - Perform a causal inference task using Pearl’s framework
 - Infer the causal graph from observational data and then validate the graph
@@ -42,7 +43,7 @@ breast-cancer-causal-ml/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/breast-cancer-causal-ml.git
+git clone https://github.com/Causality-Standalone.git
 cd breast-cancer-causal-ml
 ```
 
@@ -135,9 +136,7 @@ git push heroku main
 - **Feature Importance**: Global feature rankings
 - **Causal Analysis**: Identify true causal relationships
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+---
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -145,19 +144,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-**Denis Agyapong**
-### 🌍 Links:
-📍 Oakland, CA  
-📧 vantjohnn@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/denis-agyapong)  
-📊 [Tableau Public](https://public.tableau.com/profile/denis.king)  
-🐙 [GitHub](https://github.com/Denis0242)
+---
 
 ## 🙏 Acknowledgments
 
@@ -166,45 +153,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - SHAP library developers
 - Streamlit team
 
----
-
-Made with ❤️ for advancing medical AI
-```
-
----
-
-### 9. Procfile (for Heroku)
-```
-web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
-```
-
----
-
-### 10. runtime.txt (for Heroku)
-```
-python-3.9.16
-```
-
----
-
-## 🎯 Step-by-Step Deployment Guide
-
-### Step 1: Setup GitHub Repository
-```bash
-# Initialize git
-git init
-
-# Add all files
-git add .
-
-# Commit
-git commit -m "Initial commit: Breast Cancer Causal ML Analysis"
-
-# Create repository on GitHub, then:
-git remote add origin https://github.com/yourusername/breast-cancer-causal-ml.git
-git branch -M main
-git push -u origin main
-```
+--
 
 ### Step 2: Deploy to Streamlit Cloud
 1. Visit [share.streamlit.io](https://share.streamlit.io)
@@ -229,3 +178,10 @@ git push -u origin main
 3. **Save trained models** to the `models/` folder
 4. **Test locally** before pushing to GitHub
 5. **Deploy** and share your project!
+
+---
+## 👤 Author
+
+**Denis Agyapong**
+
+# 📍 Oakland, CA  
