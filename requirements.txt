@@ -11,4 +11,6 @@ streamlit
 plotly
 pytest
 joblib
+streamlit-nightly
+
 
