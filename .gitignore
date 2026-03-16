@@ -21,6 +21,8 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.pyc
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -50,5 +52,5 @@ outputs/reports/*.txt
 Thumbs.db
 
 # Environment
-.env
-.env.local
+.venv/
+venv/

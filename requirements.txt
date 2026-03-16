@@ -1,16 +1,11 @@
-matplotlib >=3.7.0
-numpy >=1.24.0
-pandas >=2.0.0
-seaborn >=0.12.0
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+shap
+plotly
 scipy
 statsmodels
-causalgraphicalmodels
-scikit-learn >=1.3.0
-shap
-streamlit >=1.25.0
-plotly
-pytest
 joblib
-streamlit-nightly
-altair
 
