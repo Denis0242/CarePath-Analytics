@@ -1,187 +1,160 @@
-# Causality on breast cancer data
 
-### The purpose of this project is to 
-- Perform a causal inference task using Pearl’s framework
-- Infer the causal graph from observational data and then validate the graph
-- Merge machine learning with causal inference
-on [breast cancer data](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data)
- 
-# 🎗️ Breast Cancer Causal Machine Learning Analysis
+🚀 **Featured Project: CareFlow — Causal Inference & Product Analytics for Decision-Making**
 
-A comprehensive machine learning project that uses causal inference techniques to predict breast cancer malignancy with high accuracy and interpretability.
+# 🧪 CareFlow: Healthcare Analytics & Causal Insights
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Tests](https://img.shields.io/badge/Tests-Passing-success.svg)
-![Coverage](https://img.shields.io/badge/Coverage-95%25-brightgreen.svg)
+🔍**Live App**:
 
-## 🌟 Features
+**Live App:** https://jn4vvly3pf2qrnfkrgka2t.streamlit.app
 
-- ✅ **Causal Feature Selection**: Statistical methods to identify truly causal features
-- ✅ **Multiple ML Models**: Comparison of 4 different algorithms
-- ✅ **SHAP Interpretability**: Understand model predictions
-- ✅ **Interactive Web App**: Streamlit-based user interface
-- ✅ **Automated Testing**: CI/CD pipeline with GitHub Actions
-- ✅ **High Accuracy**: 98%+ accuracy on test data
-
-## 📊 Project Structure
-
-```
-breast-cancer-causal-ml/
-├── data/                    # Dataset storage
-├── src/                     # Source code
-├── tests/                   # Unit and integration tests
-├── models/                  # Trained models
-├── outputs/                 # Analysis outputs
-├── .github/workflows/       # CI/CD configuration
-├── app.py                   # Streamlit web application
-├── requirements.txt         # Python dependencies
-└── README.md               # This file
-```
-
-## 🚀 Quick Start
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Causality-Standalone.git
-cd breast-cancer-causal-ml
-```
-
-### 2. Create Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Add Your Data
-Place your `breast_cancer_data.csv` file in the `data/` folder.
-
-### 5. Run the Analysis
-```bash
-python src/causal_ml_analysis.py
-```
-
-### 6. Launch Web App
-```bash
-streamlit run app.py
-```
-
-Visit `http://localhost:8501` in your browser.
-
-## 🧪 Running Tests
-
-```bash
-# Run all tests
-pytest tests/ -v
-
-# Run with coverage
-pytest --cov=src tests/
-
-# Run specific test file
-pytest tests/test_model_performance.py -v
-```
-
-## 📦 Deployment
-
-### Deploy to Streamlit Cloud
-
-1. Push your code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repository
-4. Select `app.py` as the main file
-5. Deploy!
-
-### Deploy to Heroku
-
-1. Create `Procfile`:
-```
-web: streamlit run app.py --server.port=$PORT
-```
-
-2. Create `runtime.txt`:
-```
-python-3.9.16
-```
-
-3. Deploy:
-```bash
-heroku create your-app-name
-git push heroku main
-```
-
-## 📈 Results
-
-| Model | Accuracy | ROC-AUC | F1-Score |
-|-------|----------|---------|----------|
-| Logistic Regression | 96.5% | 98.7% | 96.2% |
-| Random Forest | **98.2%** | **99.4%** | **98.1%** |
-| Gradient Boosting | 97.5% | 99.0% | 97.4% |
-| SVM | 97.2% | 98.8% | 97.0% |
-
-## 🔬 Methodology
-
-### Causal Feature Selection
-1. **ANOVA F-Test**: Statistical significance
-2. **Mutual Information**: Non-linear dependencies
-3. **Random Forest Importance**: Tree-based importance
-4. **Logistic Coefficients**: Linear relationships
-
-### Model Interpretation
-- **SHAP Values**: Explain individual predictions
-- **Feature Importance**: Global feature rankings
-- **Causal Analysis**: Identify true causal relationships
+**GitHub:** https://github.com/Denis0242/CareFlow
 
 ---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📌 Overview
+
+CareFlow is an end-to-end analytics project built to demonstrate how causal inference, experimentation thinking, and machine learning can support better product and business decisions.
+
+This project is positioned around real-world Product Data Analyst and Data Analyst workflows: analyzing outcomes, identifying drivers, validating relationships in data, and translating findings into actionable recommendations for growth, performance, and decision-making.
 
 ---
 
-## 🙏 Acknowledgments
+## 🎯 Business Problem
 
-- Wisconsin Breast Cancer Dataset
-- Scikit-learn community
-- SHAP library developers
-- Streamlit team
+Teams often make decisions based only on correlation, which can lead to weak conclusions and poor prioritization. CareFlow addresses that gap by combining structured analytics with causal thinking to help answer higher-value questions such as:
 
---
-
-### Step 2: Deploy to Streamlit Cloud
-1. Visit [share.streamlit.io](https://share.streamlit.io)
-2. Click "New app"
-3. Select your GitHub repository
-4. Choose `main` branch
-5. Set main file path: `app.py`
-6. Click "Deploy"!
-
-### Step 3: GitHub Actions will automatically:
-- Run tests on every push
-- Validate data loading
-- Check model performance
-- Generate coverage reports
+- What factors are most strongly associated with outcomes?
+- Which relationships may be meaningful enough to investigate further?
+- How can data be used to support smarter, evidence-based decisions?
 
 ---
 
-## 📝 Next Steps
+## 🔍 Product Analytics Focus
 
-1. **Replace mock data** in `app.py` with actual model results
-2. **Train your models** using the causal ML analysis script
-3. **Save trained models** to the `models/` folder
-4. **Test locally** before pushing to GitHub
-5. **Deploy** and share your project!
+- User and outcome behavior analysis  
+- KPI tracking and performance monitoring  
+- Trend and pattern identification  
+- Decision-driven analytics  
+- Experimentation and causal thinking  
+- Data-driven decision support  
 
 ---
-## 👤 Author
 
-**Denis Agyapong**
+## 📊 Key Features
 
-# 📍 Oakland, CA  
+- Causal inference and relationship analysis  
+- Machine learning model comparison  
+- SHAP-based model interpretability  
+- Interactive Streamlit application  
+- Automated testing and workflow support  
+- Notebook-driven analysis for exploration and validation  
+
+---
+
+## 🧠 Analytical Approach
+
+- Explored structured data to understand patterns, distributions, and outcome relationships  
+- Applied causal inference concepts to move beyond surface-level correlation  
+- Built and evaluated machine learning models for predictive analysis  
+- Used interpretability techniques to explain model behavior and support trust in results  
+- Organized the workflow into reusable scripts, notebooks, tests, and app-based outputs  
+
+---
+
+## 📊 Product Metrics & Impact
+
+- Defined KPIs to measure performance and analytical outcomes  
+- Identified trends and behavioral patterns in the data  
+- Highlighted opportunities to improve decision quality through evidence-based analysis  
+- Enabled data-driven decision-making through interpretable insights  
+- Demonstrated how causal thinking can strengthen prioritization and reduce reliance on assumptions  
+
+---
+
+## 💼 Business Impact
+
+- Helps teams make more confident, data-informed decisions  
+- Bridges the gap between correlation analysis and deeper analytical reasoning  
+- Supports prioritization by identifying meaningful drivers of outcomes  
+- Demonstrates a higher-level analytics workflow that is valuable for product, growth, and strategy teams  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- SHAP  
+- Streamlit  
+- Pytest  
+- GitHub Actions  
+
+---
+
+## 🚀 How to Run Locally
+
+Clone the repository  
+`git clone https://github.com/Denis0242/CareFlow.git`
+
+Navigate into the project  
+`cd CareFlow`
+
+Create a virtual environment  
+`python -m venv .venv`
+
+Activate the environment on Windows  
+`.venv\Scripts\activate`
+
+Install dependencies  
+`pip install -r requirements.txt`
+
+Run the application  
+`streamlit run app.py`
+
+---
+
+## 📁 Project Structure
+
+CareFlow/  
+│  
+├── .devcontainer/ — Development container configuration  
+├── .dvc/ — Data version control configuration  
+├── .github/workflows/ — CI/CD workflows  
+├── data/ — Dataset files  
+├── notebooks/ — Exploratory and analytical notebooks  
+├── scripts/ — Reusable analysis scripts  
+├── tests/ — Automated tests  
+├── app.py — Streamlit application  
+├── main.py — Main project entry point  
+├── pyproject.toml — Project configuration  
+├── requirements.txt — Python dependencies  
+├── setup.py — Package setup  
+└── README.md — Project documentation  
+
+---
+
+## 🔍 Use Case
+
+This project demonstrates:
+
+- Strong analytical thinking beyond basic reporting  
+- Experience with causal inference, experimentation logic, and predictive modeling  
+- Ability to connect technical analysis to business and product decisions  
+- Proficiency in Python-based analytics workflows  
+- Ability to communicate insights through an interactive application  
+- End-to-end project ownership from analysis to presentation  
+
+---
+
+## 📌 Why This Project Stands Out
+
+Unlike a standard dashboard or prediction project, CareFlow is designed to show decision-driven analytics. It combines exploratory analysis, machine learning, interpretability, and causal reasoning in one portfolio project, making it especially relevant for Product Data Analyst, Data Analyst, and Product Analytics roles.
+
+---
+
+## 📌 Author
+
+**Denis Agyapong**  
+Product Data Analyst | Data Analyst
