@@ -13,15 +13,20 @@
 
 ## 📌 Overview
 
-CareFlow is an end-to-end analytics project built to demonstrate how causal inference, experimentation thinking, and machine learning can support better product and business decisions.
+CareFlow is an end-to-end analytics project built to demonstrate how causal inference, experimentation 
+thinking, and machine learning can support better product and business decisions.
 
-This project is positioned around real-world Product Data Analyst and Data Analyst workflows: analyzing outcomes, identifying drivers, validating relationships in data, and translating findings into actionable recommendations for growth, performance, and decision-making.
+This project is positioned around real-world Product Data Analyst and Data Analyst workflows:
+analyzing outcomes, identifying drivers, validating relationships in data, and translating 
+findings into actionable recommendations for growth, performance, and decision-making.
 
 ---
 
 ## 🎯 Business Problem
 
-Teams often make decisions based only on correlation, which can lead to weak conclusions and poor prioritization. CareFlow addresses that gap by combining structured analytics with causal thinking to help answer higher-value questions such as:
+Teams often make decisions based only on correlation, which can lead to weak conclusions and poor 
+prioritization. CareFlow addresses that gap by combining structured analytics with causal 
+thinking to help answer higher-value questions such as:
 
 - What factors are most strongly associated with outcomes?
 - Which relationships may be meaningful enough to investigate further?
