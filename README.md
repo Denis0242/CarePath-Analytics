@@ -1,36 +1,30 @@
+ 🚀 **Featured Project: CareFlow — Causal Inference & Product Analytics for Decision-Making**
 
- 🏥 **CareFlow: Healthcare Analytics & Predictive Insights Dashboard**
- 
-🚀 **Featured Project: CareFlow — Causal Inference & Product Analytics for Decision-Making**
+🎯**Live App:**
+**Live App:** https://jn4vvly3pf2qrnfkrgka2t.streamlit.app 
 
-🔍**Live App**:
-
-**Live App:** https://jn4vvly3pf2qrnfkrgka2t.streamlit.app
-
-**GitHub:** https://github.com/Denis0242/CareFlow
+**GitHub:** https://github.com/Denis0242/CareFlow  
 
 ---
 
 ## 📌 Overview
 
-CareFlow is an end-to-end analytics project built to demonstrate how causal inference, experimentation 
-thinking, and machine learning can support better product and business decisions.
+CareFlow is an end-to-end analytics project built with Python and Streamlit to demonstrate how causal inference, experimentation thinking, machine learning, and interpretable analytics can support better product and business decisions.
 
-This project is positioned around real-world Product Data Analyst and Data Analyst workflows:
-analyzing outcomes, identifying drivers, validating relationships in data, and translating 
-findings into actionable recommendations for growth, performance, and decision-making.
+This project is positioned around real-world **Product Data Analyst** and **Data Analyst** workflows: analyzing outcomes, identifying drivers, validating relationships in data, tracking performance, and translating findings into actionable recommendations.
 
 ---
 
 ## 🎯 Business Problem
 
-Teams often make decisions based only on correlation, which can lead to weak conclusions and poor 
-prioritization. CareFlow addresses that gap by combining structured analytics with causal 
-thinking to help answer higher-value questions such as:
+Teams often make decisions based only on correlation, which can lead to weak conclusions, poor prioritization, and low-confidence recommendations.
+
+CareFlow addresses that gap by combining structured analytics with causal thinking to help answer higher-value questions such as:
 
 - What factors are most strongly associated with outcomes?
-- Which relationships may be meaningful enough to investigate further?
+- Which relationships are meaningful enough to investigate further?
 - How can data be used to support smarter, evidence-based decisions?
+- How can analytics improve prioritization for product, growth, and strategy teams?
 
 ---
 
@@ -51,8 +45,9 @@ thinking to help answer higher-value questions such as:
 - Machine learning model comparison  
 - SHAP-based model interpretability  
 - Interactive Streamlit application  
-- Automated testing and workflow support  
-- Notebook-driven analysis for exploration and validation  
+- Notebook-driven exploration and validation  
+- Reusable scripts for analytics workflows  
+- Automated testing for reliability  
 
 ---
 
@@ -61,7 +56,7 @@ thinking to help answer higher-value questions such as:
 - Explored structured data to understand patterns, distributions, and outcome relationships  
 - Applied causal inference concepts to move beyond surface-level correlation  
 - Built and evaluated machine learning models for predictive analysis  
-- Used interpretability techniques to explain model behavior and support trust in results  
+- Used interpretability techniques to explain model behavior and improve trust in results  
 - Organized the workflow into reusable scripts, notebooks, tests, and app-based outputs  
 
 ---
@@ -81,7 +76,8 @@ thinking to help answer higher-value questions such as:
 - Helps teams make more confident, data-informed decisions  
 - Bridges the gap between correlation analysis and deeper analytical reasoning  
 - Supports prioritization by identifying meaningful drivers of outcomes  
-- Demonstrates a higher-level analytics workflow that is valuable for product, growth, and strategy teams  
+- Demonstrates an end-to-end analytics workflow valuable for product, growth, and strategy teams  
+- Shows how analysis can move from reporting to decision support  
 
 ---
 
@@ -95,6 +91,7 @@ thinking to help answer higher-value questions such as:
 - Streamlit  
 - Pytest  
 - GitHub Actions  
+- DVC  
 
 ---
 
@@ -131,8 +128,8 @@ CareFlow/
 ├── notebooks/ — Exploratory and analytical notebooks  
 ├── scripts/ — Reusable analysis scripts  
 ├── tests/ — Automated tests  
-├── app.py — Streamlit application  
-├── main.py — Main project entry point  
+├── app.py — Main Streamlit application  
+├── main.py — Project entry point  
 ├── pyproject.toml — Project configuration  
 ├── requirements.txt — Python dependencies  
 ├── setup.py — Package setup  
@@ -140,7 +137,7 @@ CareFlow/
 
 ---
 
-## 🔍 Use Case
+## 🔍 Use Case 
 
 This project demonstrates:
 
@@ -153,13 +150,13 @@ This project demonstrates:
 
 ---
 
-## 📌 Why This Project Stands Out
+## ⭐ Why This Project Stands Out
 
-Unlike a standard dashboard or prediction project, CareFlow is designed to show decision-driven analytics. It combines exploratory analysis, machine learning, interpretability, and causal reasoning in one portfolio project, making it especially relevant for Product Data Analyst, Data Analyst, and Product Analytics roles.
+Unlike a standard dashboard or prediction project, CareFlow is built to show **decision-driven analytics**. It combines exploratory analysis, machine learning, interpretability, and causal reasoning in one project, making it especially relevant for **Product Data Analyst**, **Data Analyst**, and **Product Analytics** roles.
 
 ---
 
 ## 📌 Author
 
 **Denis Agyapong**  
-Product Data Analyst | Data Analyst
+**Product Data Analyst | Data Analyst**
