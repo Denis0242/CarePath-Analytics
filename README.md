@@ -4,7 +4,7 @@
 🎯**Live App:**
 **Live App:** https://jn4vvly3pf2qrnfkrgka2t.streamlit.app 
 
-**GitHub:** https://github.com/Denis0242/CareFlow  
+**GitHub:** https://github.com/Denis0242/CarePath  
 
 ---
 
@@ -99,10 +99,10 @@ Healthcare systems often suffer from fragmented patient journeys, leading to:
 ## 🚀 How to Run Locally
 
 Clone the repository  
-`git clone https://github.com/Denis0242/CareFlow.git`
+`git clone https://github.com/Denis0242/CarePath.git`
 
 Navigate into the project  
-`cd CareFlow`
+`cd CarePath`
 
 Create a virtual environment  
 `python -m venv .venv`
@@ -120,7 +120,7 @@ Run the application
 
 ## 📁 Project Structure
 
-CareFlow/  
+CarePath/  
 │ 
 ├── .devcontainer/ 
 ├── .dvc/  
@@ -155,7 +155,7 @@ This project demonstrates:
 
 ## ⭐ Why This Project Stands Out
 
-Unlike a standard dashboard or prediction project, CareFlow is built to show **decision-driven analytics**. It combines exploratory analysis, machine learning, interpretability, and causal reasoning in one project, making it especially relevant for **Product Data Analyst**, **Data Analyst**, and **Product Analytics** roles.
+Unlike a standard dashboard or prediction project, CarePath is built to show **decision-driven analytics**. It combines exploratory analysis, machine learning, interpretability, and causal reasoning in one project, making it especially relevant for **Product Data Analyst**, **Data Analyst**, and **Product Analytics** roles.
 
 ---
 
