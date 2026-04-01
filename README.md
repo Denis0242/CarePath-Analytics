@@ -77,7 +77,10 @@ CareFlow addresses that gap by combining structured analytics with causal thinki
 - Bridges the gap between correlation analysis and deeper analytical reasoning  
 - Supports prioritization by identifying meaningful drivers of outcomes  
 - Demonstrates an end-to-end analytics workflow valuable for product, growth, and strategy teams  
-- Shows how analysis can move from reporting to decision support  
+- Shows how analysis can move from reporting to decision support
+- Identified key funnel drop-offs impacting conversion
+- Enabled data-driven decisions through KPI tracking
+- Provided insights to improve retention and engagement  
 
 ---
 
